@@ -87,6 +87,7 @@ ul li {
   margin-top: 5px;
   margin-bottom: 8px;
   color: rgb(95, 95, 173);
+  list-style: none;
 }
 
 .porfolio-list li {
@@ -136,7 +137,6 @@ i {
 
 .portfolio-two {
   background-color: #e5e5e5;
-  height: 552px;
   margin: 0 auto;
   width: 100%;
   position: static;
@@ -154,6 +154,8 @@ i {
 
 .portfolio-card-about {
   padding-bottom: 40px;
+  width: 100%;
+  border-top-right-radius: 60px;
 }
 
 .portfolio {
