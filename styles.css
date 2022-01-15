@@ -59,6 +59,14 @@ body {
   padding-top: 28px;
 }
 
+p {
+  margin-bottom: 15px;
+  color: #344563;
+  font-size: 15px;
+  line-height: 24px;
+  line-height: 26px;
+}
+
 .paragraph p {
   line-height: 24px;
   font-size: 16px;
@@ -66,9 +74,26 @@ body {
   color: #344563;
 }
 
+ul {
+  display: flex;
+}
+
 .pictures ul {
   list-style: none;
   display: flex;
+}
+
+ul li {
+  margin-top: 5px;
+  margin-bottom: 8px;
+  color: rgb(95, 95, 173);
+}
+
+.porfolio-list li {
+  margin-right: 25px;
+  font-size: 13px;
+  color: #7a869a;
+  font-weight: 600;
 }
 
 .pictures ul li {
@@ -91,7 +116,7 @@ i {
   font-weight: 500;
 }
 
-.button{
+.button {
   padding: 10px;
   width: 180px;
   font-size: 18px;
@@ -103,10 +128,10 @@ i {
   margin-top: 20px;
 }
 
-.button:hover{
+.button:hover {
   color: black;
   background-color: rgb(236, 127, 48);
-  border-color:chocolate;
+  border-color: chocolate;
 }
 
 .portfolio-two {
@@ -114,14 +139,13 @@ i {
   height: 552px;
   margin: 0 auto;
   width: 100%;
-  position:static;
+  position: static;
   padding-top: 60px;
- 
 }
 
-.portfolio-card{
+.portfolio-card {
   display: grid;
-  background-color:#e5e5e5;
+  background-color: #e5e5e5;
   padding-left: 8px;
   padding-top: 10px;
   padding-right: 15px;
@@ -142,7 +166,6 @@ i {
   margin-bottom: 90px;
   position: sticky;
   width: 375px;
-
 }
 
 .portfolio-images img {
@@ -167,13 +190,6 @@ i {
   color: #344563;
 }
 
-.porfolio-list li {
-  margin-right: 25px;
-  font-size: 13px;
-  color: #7a869a;
-  font-weight: 600;
-}
-
 .portfolio-paragraph {
   margin-top: 10px;
 }
@@ -183,33 +199,11 @@ i {
   margin-bottom: 15px;
 }
 
-ul li {
-  margin-top: 5px;
-  margin-bottom: 8px;
-  color: rgb(95, 95, 173);
-}
-
-.porfolio-courses ul li {
-  list-style: none;
-}
-
-ul {
-  display: flex;
-}
-
 .portfolio-paragraph-canopy {
   display: flex;
   align-items: baseline;
   width: 300px;
   margin-top: 10px;
-}
-
-p {
-  margin-bottom: 15px;
-  color: #344563;
-  font-size: 15px;
-  line-height: 24px;
-  line-height: 26px;
 }
 
 h1 {
@@ -247,11 +241,11 @@ h1 {
   border-radius: 8px;
 }
 
-.portfolio-paragraph h3{
+.portfolio-paragraph h3 {
   font-size: 30px;
 }
 
-.portfolio-paragraph h4{
+.portfolio-paragraph h4 {
   font-size: 32px;
 }
 
@@ -261,7 +255,7 @@ h1 {
   display: block;
 }
 
-.images-languages img{
+.images-languages img {
   margin-bottom: 10px;
 }
 
@@ -281,8 +275,8 @@ h1 {
 }
 
 .about-card .languages p {
- font-size: 20px;
- color: black;
+  font-size: 20px;
+  color: black;
 }
 
 .about-card hr {
