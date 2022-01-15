@@ -93,6 +93,20 @@ i {
 
 .button{
   padding: 10px;
+  width: 180px;
+  font-size: 18px;
+  background-color: white;
+  border: 1px #396df2 solid;
+  border-radius: 8px;
+  color: #396df2;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.button:hover{
+  color: black;
+  background-color: rgb(236, 127, 48);
+  border-color:chocolate;
 }
 
 .portfolio-two {
@@ -113,6 +127,11 @@ i {
   padding-right: 15px;
   width: 375px;
 }
+
+.portfolio-card-about {
+  padding-bottom: 40px;
+}
+
 .portfolio {
   padding: 20px;
   background-color: white;
@@ -156,12 +175,12 @@ i {
 }
 
 .portfolio-paragraph {
-  margin-top: -10px;
+  margin-top: 10px;
 }
 
 .portfolio-paragraph h2 {
-  font-size: 34px;
-  margin-bottom: 10px;
+  font-size: 36px;
+  margin-bottom: 15px;
 }
 
 ul li {
@@ -234,4 +253,38 @@ h1 {
 
 .portfolio-paragraph h4{
   font-size: 32px;
+}
+
+.images-languages {
+  margin-top: 10px;
+  margin-left: 10px;
+  display: block;
+}
+
+.images-languages img{
+  margin-bottom: 10px;
+}
+
+.about-card {
+  margin-top: 20px;
+}
+
+.about-card ul {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+}
+
+.about-card .languages {
+  display: flex;
+  justify-content: space-between;
+}
+
+.about-card .languages p {
+ font-size: 20px;
+ color: black;
+}
+
+.about-card hr {
+  color: #dfe1e6;
 }

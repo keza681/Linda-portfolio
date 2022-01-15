@@ -3,9 +3,9 @@
 
 # linda-portfolio-part1
 
-I'm working on the portofolio project. This is the first part.  
+I'm working on the portofolio project. This is the middle part.  
 
-![screenshot](./Capture.png)
+![screenshot](./capt2.png)
 
 ## Built With
 
