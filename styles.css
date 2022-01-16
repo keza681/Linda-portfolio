@@ -158,6 +158,11 @@ i {
   border-top-right-radius: 60px;
 }
 
+.portfolio-card-about .portfolio {
+  width: 100%;
+  border-top-right-radius: 80px;
+}
+
 .portfolio {
   padding: 20px;
   background-color: white;
@@ -194,6 +199,7 @@ i {
 
 .portfolio-paragraph {
   margin-top: 10px;
+  margin-left: 10px;
 }
 
 .portfolio-paragraph h2 {
