@@ -1,8 +1,7 @@
-# linda-portfolio-part2
+
 ![](http://127.0.0.1:5500/Index.html)
 
-# linda-portfolio-part1
-
+# linda-portfolio-part2
 I'm working on the portofolio project. This is the middle part.  
 
 ![screenshot](./capt2.png)
