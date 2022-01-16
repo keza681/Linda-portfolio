@@ -158,11 +158,6 @@ i {
   border-top-right-radius: 60px;
 }
 
-.portfolio-card-about .portfolio {
-  width: 100%;
-  border-top-right-radius: 80px;
-}
-
 .portfolio {
   padding: 20px;
   background-color: white;
@@ -173,6 +168,11 @@ i {
   margin-bottom: 90px;
   position: sticky;
   width: 375px;
+}
+
+.portfolio-card-about .portfolio {
+  width: 100%;
+  border-top-right-radius: 80px;
 }
 
 .portfolio-images img {
