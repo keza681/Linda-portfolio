@@ -34,6 +34,19 @@ body {
   color: #6070ff;
   font-weight: 700;
   text-decoration: none;
+  animation: change-color 3s linear 1s infinite both;
+}
+
+@keyframes change-color {
+  0% {
+    color: #6070ff;
+  }
+  50% {
+    color: #396df2;
+  }
+  100% {
+    color: #172b4d;
+  }
 }
 
 .main-body {
