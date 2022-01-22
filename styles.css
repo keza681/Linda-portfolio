@@ -156,13 +156,14 @@ body {
     padding-top: 10px;
     padding-right: 15px;
     width: 375px;
-    margin: 0 auto;
+    margin-bottom: 90px;
   }
 
   .portfolio-card-about {
     padding-bottom: 40px;
     width: 100%;
     border-top-right-radius: 60px;
+    background-color: white;
   }
 
   .portfolio {
@@ -172,9 +173,9 @@ body {
     align-items: center;
     align-content: center;
     border-radius: 16px;
-    margin-bottom: 90px;
     position: sticky;
-    width: 375px;
+    width: 327px;
+    margin: 0 auto;
   }
 
   .portfolio-card-about .portfolio {
@@ -183,7 +184,7 @@ body {
   }
 
   .portfolio-images img {
-    width: 320px;
+    width: 280px;
     height: 220px;
     margin: 0 auto;
     margin-top: 5px;
@@ -311,16 +312,17 @@ body {
 
   .footing {
     background-color: #6070ff;
-    background-image: url("./images/body.svg");
+    background-image: url("./images/contact\ form\ shapes-mobile@2x.svg");
     background-repeat: no-repeat;
-    background-position-x: 0;
-    background-position-y: 10px;
+    background-position-x: 150px;
+    background-position-y: 40px;
     padding-top: 80px;
     border-top-left-radius: 80px;
     color: white;
     width: 100%;
     position: static;
     background-size: contain;
+    height: 769px;
   }
 
   .footing .lovers {
