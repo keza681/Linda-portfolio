@@ -11,7 +11,6 @@ body {
   background-color: white;
   position: static;
 }
-
 .portfolio-part-one {
   box-sizing: border-box;
   font-family: Poppins, sans-serif;
@@ -309,4 +308,367 @@ h1 {
 
 .about-card hr {
   color: #dfe1e6;
+=======
+@media screen and (max-width: 992px) {
+  .portfolio-part-one {
+    box-sizing: border-box;
+    font-family: Poppins, sans-serif;
+    background-position: 20px 10px;
+    background-image: url("./header-shapes\ mobile.png");
+    background-size: cover;
+    background-position-y: 40px;
+    background-position-x: 0;
+    background-repeat: no-repeat;
+    padding-bottom: 40px;
+    width: 375px;
+  }
+
+  .container {
+    display: flex;
+    justify-content: space-between;
+    margin: 25px;
+  }
+
+  .my-menu {
+    display: none;
+  }
+
+  .logo-container a {
+    color: #6070ff;
+    font-weight: 700;
+    text-decoration: none;
+  }
+
+  .main-body {
+    margin: 25px;
+    margin-top: 60px;
+  }
+
+  .icons-title h3 {
+    font-size: 16px;
+    margin-top: 10px;
+    font-weight: 500;
+    color: #7f8cff;
+    line-height: 24px;
+  }
+
+  .paragraph h2 {
+    color: #172b4d;
+    margin-bottom: 15px;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 52px;
+    margin-top: 20px;
+    padding-top: 28px;
+  }
+
+  p {
+    margin-bottom: 15px;
+    color: #344563;
+    font-size: 15px;
+    line-height: 24px;
+    line-height: 26px;
+  }
+
+  .paragraph p {
+    line-height: 24px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #344563;
+  }
+
+  ul {
+    display: flex;
+  }
+
+  .pictures ul {
+    list-style: none;
+    display: flex;
+  }
+
+  ul li {
+    margin-top: 5px;
+    margin-bottom: 8px;
+    color: rgb(95 95 173);
+    list-style: none;
+  }
+
+  .porfolio-list li {
+    margin-right: 25px;
+    font-size: 13px;
+    color: #7a869a;
+    font-weight: 600;
+  }
+
+  .pictures ul li {
+    margin-right: 10px;
+    margin-top: 10px;
+  }
+
+  i {
+    color: #505f79;
+    font-size: 20px;
+  }
+
+  .bars-container i {
+    color: #6070ff;
+  }
+
+  .portfolio .icons h5 {
+    font-size: 15px;
+    color: rgb(74 141 230);
+    font-weight: 500;
+  }
+
+  .button {
+    padding: 10px;
+    width: 180px;
+    font-size: 18px;
+    background-color: white;
+    border: 1px #396df2 solid;
+    border-radius: 8px;
+    color: #396df2;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+
+  .button:hover {
+    color: black;
+    background-color: rgb(236 127 48);
+    border-color: chocolate;
+  }
+
+  .portfolio-two {
+    background-color: #e5e5e5;
+    margin: 0 auto;
+    width: 100%;
+    position: static;
+    padding-top: 60px;
+  }
+
+  .portfolio-card {
+    display: grid;
+    background-color: #e5e5e5;
+    padding-left: 8px;
+    padding-top: 10px;
+    padding-right: 15px;
+    width: 375px;
+    margin-bottom: 90px;
+  }
+
+  .portfolio-card-about {
+    padding-bottom: 40px;
+    width: 100%;
+    border-top-right-radius: 60px;
+    background-color: white;
+  }
+
+  .portfolio {
+    padding: 20px;
+    background-color: white;
+    display: grid;
+    align-items: center;
+    align-content: center;
+    border-radius: 16px;
+    position: sticky;
+    width: 327px;
+    margin: 0 auto;
+  }
+
+  .portfolio-card-about .portfolio {
+    width: 100%;
+    border-top-right-radius: 80px;
+  }
+
+  .portfolio-images img {
+    width: 280px;
+    height: 220px;
+    margin: 0 auto;
+    margin-top: 5px;
+    margin-bottom: 30px;
+  }
+
+  .porfolio-flex {
+    display: flex;
+    align-content: center;
+    align-items: baseline;
+  }
+
+  .porfolio-flex p {
+    margin-right: 30px;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 16px;
+    color: #344563;
+  }
+
+  .portfolio-paragraph {
+    margin-top: 10px;
+    margin-left: 10px;
+  }
+
+  .portfolio-paragraph h2 {
+    font-size: 36px;
+    margin-bottom: 15px;
+  }
+
+  .portfolio-paragraph-canopy {
+    display: flex;
+    align-items: baseline;
+    width: 300px;
+    margin-top: 10px;
+  }
+
+  h1 {
+    font-size: 36px;
+    margin-top: -20px;
+  }
+
+  .btn-tonic {
+    padding: 10px;
+    width: 140px;
+    font-size: 18px;
+    background-color: white;
+    border: 1px #396df2 solid;
+    border-radius: 8px;
+    color: #396df2;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+
+  .btn-tonic:hover {
+    background-color: #396df2;
+    color: white;
+    border: 1px solid white;
+  }
+
+  .porfolio-courses ul li {
+    margin-right: 10px;
+  }
+
+  .porfolio-courses ul li a {
+    margin-top: 20px;
+    text-decoration: none;
+    color: #6070ff;
+    background-color: #ebebff;
+    padding: 4px 12px;
+    border-radius: 8px;
+  }
+
+  .portfolio-paragraph h3 {
+    font-size: 30px;
+  }
+
+  .portfolio-paragraph h4 {
+    font-size: 32px;
+  }
+
+  .images-languages {
+    margin-top: 10px;
+    margin-left: 10px;
+    display: block;
+  }
+
+  .images-languages img {
+    margin-bottom: 10px;
+  }
+
+  .about-card {
+    margin-top: 20px;
+  }
+
+  .about-card ul {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+  }
+
+  .images-languages-two {
+    display: none;
+  }
+
+  .about-card .languages {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .footing p {
+    color: white;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  .about-card .languages p {
+    font-size: 20px;
+    color: black;
+  }
+
+  .about-card hr {
+    color: #dfe1e6;
+  }
+
+  .footing {
+    background-color: #6070ff;
+    background-image: url("./images/contact\ form\ shapes-mobile@2x.svg");
+    background-repeat: no-repeat;
+    background-position-x: 150px;
+    background-position-y: 40px;
+    padding-top: 80px;
+    border-top-left-radius: 80px;
+    color: white;
+    width: 100%;
+    position: static;
+    background-size: contain;
+    height: 769px;
+  }
+
+  .footing .lovers {
+    margin-top: -90px;
+  }
+
+  .their-lovers {
+    margin: 0 auto;
+    width: 290px;
+  }
+
+  h6 {
+    margin-top: 103px;
+    margin-bottom: 12px;
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 52px;
+    text-align: center;
+    color: #fff;
+  }
+
+  .footing .my-lovers {
+    display: grid;
+    margin-top: 10px;
+  }
+
+  .footing .my-lovers input {
+    padding: 10px;
+    border-radius: 8px;
+    outline: none;
+    margin-bottom: 15px;
+    border: none;
+  }
+
+  .footing .my-lovers textarea {
+    color: rgb(202 199 199);
+    border-radius: 8px;
+  }
+
+  .butt-tonic {
+    padding: 12px 16px;
+    width: 160px;
+    border: none;
+    background-color: #fff;
+    color: #6070ff;
+    border-radius: 8px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
 }
