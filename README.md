@@ -3,8 +3,9 @@
 
 # linda-portfolio-part2
 I'm working on the portofolio project. this the Desktop version. 
+### Desktop version view
 ![screenshot](./desk.png)
-
+### Mobile version view
 ![screenshot](./capt2.png)
 
 ## Built With
