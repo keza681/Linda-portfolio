@@ -30,22 +30,28 @@ body {
   margin: 25px;
 }
 
-.logo-container a {
+
+.logo-container a{
   color: #6070ff;
   font-weight: 700;
   text-decoration: none;
+}
+
+.logo-container a:hover,
+.logo-container a:focus {
   animation: change-color 3s linear 1s infinite both;
 }
 
 @keyframes change-color {
   0% {
     color: #6070ff;
+    padding: 30px;
   }
   50% {
-    color: #396df2;
+    color: #75c729;
   }
   100% {
-    color: #172b4d;
+    color: #6070ff;
   }
 }
 
