@@ -4,7 +4,7 @@
   padding: 0;
   box-sizing: border-box;
   margin: 0;
-  font-family: "Poppins", sans-serif;
+  font-family: Poppins, sans-serif;
 }
 
 body {
@@ -14,9 +14,9 @@ body {
 
 .portfolio-part-one {
   box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
+  font-family: Poppins, sans-serif;
   background-position: 20px 10px;
-  background-image: url(./header-shapes\ mobile.png);
+  background-image: url("./header-shapes\ mobile.png");
   background-size: cover;
   background-position-y: 40px;
   background-position-x: 0;
@@ -30,11 +30,19 @@ body {
   margin: 25px;
 }
 
-
-.logo-container a{
+.logo-container a {
   color: #6070ff;
   font-weight: 700;
   text-decoration: none;
+}
+
+.porfolio-courses ul li a {
+  margin-top: 20px;
+  text-decoration: none;
+  color: #6070ff;
+  background-color: #ebebff;
+  padding: 4px 12px;
+  border-radius: 8px;
 }
 
 .logo-container a:hover,
@@ -47,9 +55,11 @@ body {
     color: #6070ff;
     padding: 30px;
   }
+
   50% {
     color: #75c729;
   }
+
   100% {
     color: #6070ff;
   }
@@ -105,7 +115,7 @@ ul {
 ul li {
   margin-top: 5px;
   margin-bottom: 8px;
-  color: rgb(95, 95, 173);
+  color: rgb(95 95 173);
   list-style: none;
 }
 
@@ -132,7 +142,7 @@ i {
 
 .portfolio .icons h5 {
   font-size: 15px;
-  color: rgb(74, 141, 230);
+  color: rgb(74 141 230);
   font-weight: 500;
 }
 
@@ -150,7 +160,7 @@ i {
 
 .button:hover {
   color: black;
-  background-color: rgb(236, 127, 48);
+  background-color: rgb(236 127 48);
   border-color: chocolate;
 }
 
@@ -257,15 +267,6 @@ h1 {
 
 .porfolio-courses ul li {
   margin-right: 10px;
-}
-
-.porfolio-courses ul li a {
-  margin-top: 20px;
-  text-decoration: none;
-  color: #6070ff;
-  background-color: #ebebff;
-  padding: 4px 12px;
-  border-radius: 8px;
 }
 
 .portfolio-paragraph h3 {
