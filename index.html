@@ -12,10 +12,10 @@
       referrerpolicy="no-referrer"
     />
     <link rel="stylesheet" href="./styles.css" />
+    <link rel="stylesheet" href="./dversion.css" />
     <title>Document</title>
   </head>
   <body>
-
     <div class="portfolio-part-one">
       <header>
           <div class="container">
@@ -25,6 +25,13 @@
            <nav class="bars-container">
                <a href=""><i class="fas fa-bars"></i></a>
            </nav>
+           <div class="my-menu">
+            <ul class="menu">
+              <li><a href="#" class="port-menu">Portfolio</a></li>
+              <li><a href="#" class="about-menu">About</a></li>
+              <li><a href="#" class="conta-menu">Contact</a></li>
+            </ul>
+          </div>
           </div>
       </header>
       <div class="main-body">
@@ -71,7 +78,7 @@
       <section class="portfolio-card">
         <div class="portfolio">
           <div class="portfolio-images">
-            <img src="./images/pic1a.png" alt="" />
+            <img src="./images/port.svg" alt="" />
           </div>
           <div class="portfolio-paragraph">
             <h1>TONIC</h1>
@@ -199,6 +206,7 @@
       <section class="portfolio-card-about">
         <div class="portfolio">
           <div class="portfolio-paragraph">
+            <div class="about-section">
             <h4>ABOUT <br> MYSELF</h4>
             <p>
               A daily selection of privately personalized reads; no accounts or
@@ -234,6 +242,7 @@
             <div class="btn">
               <button type="submit" class="button">Get my Resume</button>
             </div>
+          </div>
             <div class="about-card">
               <div class="list-languages">
               <ul>
@@ -248,6 +257,9 @@
                     <a href=""><img src="./images/pic12.png" alt="" /></a>
                     <a href=""><img src="./images/pic13.png" alt="" /></a>
                     <a href=""><img src="./images/pic14.png" alt="" /></a>
+                  </div>
+                  <div class="images-languages-two">
+                    <a href=""><img src="./images/list.svg" alt="" /></a>
                   </div>
                 </li>
                 <li>
@@ -273,5 +285,36 @@
         </div>
       </section>
     </main>
+
+    
+  <footer>
+    <form  action=https://formspree.io/f/xqkneyld method="post">
+    <section class="footing">
+      <div class="lovers">
+        <div class="their-lovers">
+          <h6>Contact me</h6>
+          <p>
+          If you have an application you are intersted in developing, a
+          feature that you need built or a project that needs codiing, I’d
+          love to help with it.
+          </p>
+          <div class="my-lovers">
+            <input type="text" name="name" id="name" placeholder="Zahra" maxlength="30" required />
+            <input type="email" name="email" id="email" placeholder="zahrakeza@gmail.com" required />
+            <textarea name=“comment” id=“msg” cols=30 rows=10 maxlength="500" required >write your message here</textarea>
+          </div>
+          <div class="butt">
+            <button class="butt-tonic" type='submit'>Get In Touch</button>
+          </div>
+        </div>
+      </div> 
+    </section>
+  </form>
+  </footer>
+
   </body>
+
+
+
+
 </html>

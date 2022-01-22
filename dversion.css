@@ -1,45 +1,53 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;500;600;700;800;900&display=swap");
+@media screen and (min-width: 992px) {
+  body {
+    background-color: #e5e5e5;
+  }
 
-* {
-  padding: 0;
-  box-sizing: border-box;
-  margin: 0;
-  font-family: Poppins, sans-serif;
-}
-
-body {
-  background-color: white;
-  position: static;
-}
-
-@media screen and (max-width: 992px) {
   .portfolio-part-one {
     box-sizing: border-box;
     font-family: Poppins, sans-serif;
-    background-position: 20px 10px;
-    background-image: url("./header-shapes\ mobile.png");
+    background-image: url("./header-shapes\ mobile@2x.svg");
     background-size: cover;
-    background-position-y: 40px;
+    background-position-y: 10px;
     background-position-x: 0;
     background-repeat: no-repeat;
     padding-bottom: 40px;
-    width: 375px;
+    height: 916px;
+    border-bottom-left-radius: 120px;
+    background-color: white;
   }
 
   .container {
     display: flex;
     justify-content: space-between;
-    margin: 25px;
+    width: 916px;
+    margin: 0 auto;
+    height: 60px;
+    align-items: center;
   }
 
-  .my-menu {
+  .bars-container {
     display: none;
+  }
+
+  .section {
+    width: 820px;
+    margin: 0 auto;
+    padding-top: 120px;
   }
 
   .logo-container a {
     color: #6070ff;
     font-weight: 700;
     text-decoration: none;
+    font-size: 18px;
+  }
+
+  .my-menu ul li a {
+    text-decoration: none;
+    margin-left: 20px;
+    color: #344563;
+    font-size: 15px;
   }
 
   .main-body {
@@ -56,13 +64,14 @@ body {
   }
 
   .paragraph h2 {
-    color: #172b4d;
+    color: #091e42;
     margin-bottom: 15px;
-    font-size: 40px;
+    font-size: 48px;
     font-weight: 700;
-    line-height: 52px;
+    line-height: 60px;
     margin-top: 20px;
     padding-top: 28px;
+    letter-spacing: 0.37px;
   }
 
   p {
@@ -155,40 +164,79 @@ body {
     padding-left: 8px;
     padding-top: 10px;
     padding-right: 15px;
-    width: 375px;
-    margin-bottom: 90px;
+    margin-bottom: 60px;
   }
 
   .portfolio-card-about {
     padding-bottom: 40px;
     width: 100%;
     border-top-right-radius: 60px;
-    background-color: white;
+    display: flex;
   }
 
   .portfolio {
     padding: 20px;
     background-color: white;
-    display: grid;
+    display: flex;
     align-items: center;
     align-content: center;
     border-radius: 16px;
-    position: sticky;
-    width: 327px;
     margin: 0 auto;
+    width: 1000px;
+    padding-bottom: 20px;
+    height: 496px;
+  }
+
+  .portfolio-story {
+    padding: 20px;
+    background-color: white;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    align-content: center;
+    border-radius: 16px;
+    margin: 0 auto;
+    width: 1000px;
+    padding-bottom: 20px;
+    height: 496px;
   }
 
   .portfolio-card-about .portfolio {
     width: 100%;
     border-top-right-radius: 80px;
+    display: flex;
+  }
+
+  .portfolio-paragraph {
+    margin-top: 10px;
+    margin-left: 10px;
+  }
+
+  .portfolio-card-about .portfolio-paragraph {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .portfolio-card-about .about-section {
+    width: 447px;
+    margin-left: 7%;
+    margin-right: 20px;
+  }
+
+  .about-card {
+    margin-top: 20px;
+  }
+
+  .portfolio-card-about .about-card {
+    width: 620px;
   }
 
   .portfolio-images img {
-    width: 280px;
-    height: 220px;
-    margin: 0 auto;
-    margin-top: 5px;
-    margin-bottom: 30px;
+    width: 544px;
+    height: 400px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-right: 30px;
   }
 
   .porfolio-flex {
@@ -203,11 +251,6 @@ body {
     font-size: 13px;
     line-height: 16px;
     color: #344563;
-  }
-
-  .portfolio-paragraph {
-    margin-top: 10px;
-    margin-left: 10px;
   }
 
   .portfolio-paragraph h2 {
@@ -240,9 +283,8 @@ body {
   }
 
   .btn-tonic:hover {
-    background-color: #396df2;
-    color: white;
-    border: 1px solid white;
+    background-color: #ebebff;
+    color: black;
   }
 
   .porfolio-courses ul li {
@@ -276,8 +318,8 @@ body {
     margin-bottom: 10px;
   }
 
-  .about-card {
-    margin-top: 20px;
+  .about-card .images-languages {
+    display: none;
   }
 
   .about-card ul {
@@ -286,19 +328,19 @@ body {
     list-style: none;
   }
 
-  .images-languages-two {
-    display: none;
-  }
-
   .about-card .languages {
     display: flex;
     justify-content: space-between;
   }
 
+  .their-lovers p {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
   .footing p {
     color: white;
     margin-bottom: 20px;
-    text-align: center;
   }
 
   .about-card .languages p {
@@ -312,35 +354,37 @@ body {
 
   .footing {
     background-color: #6070ff;
-    background-image: url("./images/contact\ form\ shapes-mobile@2x.svg");
+    background-image: url("/contact\ form\ background\ shapes@2x.svg");
+    background-size: contain;
+    background-position-y: 60px;
+    background-position-x: 0;
     background-repeat: no-repeat;
-    background-position-x: 150px;
-    background-position-y: 40px;
     padding-top: 80px;
     border-top-left-radius: 80px;
     color: white;
     width: 100%;
     position: static;
-    background-size: contain;
-    height: 769px;
   }
 
   .footing .lovers {
-    margin-top: -90px;
+    width: 447px;
+    margin: 0 auto;
   }
 
   .their-lovers {
-    margin: 0 auto;
-    width: 290px;
+    margin-top: -40px;
   }
 
   h6 {
+    width: 375px;
+    height: 56px;
     margin-top: 103px;
     margin-bottom: 12px;
+    margin-left: 10%;
     font-family: Poppins, sans-serif;
     font-style: normal;
     font-weight: bold;
-    font-size: 32px;
+    font-size: 40px;
     line-height: 52px;
     text-align: center;
     color: #fff;
@@ -348,20 +392,29 @@ body {
 
   .footing .my-lovers {
     display: grid;
-    margin-top: 10px;
+    width: 400px;
+    margin: 0 auto;
   }
 
   .footing .my-lovers input {
-    padding: 10px;
-    border-radius: 8px;
+    padding: 14px;
+    border-radius: 2px;
     outline: none;
-    margin-bottom: 15px;
+    margin-bottom: 25px;
     border: none;
   }
 
   .footing .my-lovers textarea {
     color: rgb(202 199 199);
-    border-radius: 8px;
+    border-radius: 2px;
+    outline: none;
+    margin-bottom: 10px;
+    padding: 12px;
+  }
+
+  .butt {
+    width: 160px;
+    margin: 0 auto;
   }
 
   .butt-tonic {
@@ -373,5 +426,12 @@ body {
     border-radius: 8px;
     margin-top: 20px;
     margin-bottom: 20px;
+    cursor: pointer;
+  }
+
+  .butt-tonic:hover {
+    background-color: #6070ff;
+    color: white;
+    border: 1px solid white;
   }
 }

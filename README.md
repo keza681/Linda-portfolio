@@ -2,9 +2,11 @@
 ![](http://127.0.0.1:5500/Index.html)
 
 # linda-portfolio-part2
-I'm working on the portofolio project. This is the middle part.  
-
-![screenshot](./capt2.png)
+I'm working on the portofolio project. this the Desktop version. 
+### Desktop version view
+![screenshot](./dess.PNG)
+### Mobile version view
+![screenshot](./mobile.PNG)
 
 ## Built With
 
