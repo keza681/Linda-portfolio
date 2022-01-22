@@ -2,7 +2,8 @@
 ![](http://127.0.0.1:5500/Index.html)
 
 # linda-portfolio-part2
-I'm working on the portofolio project. This is the middle part.  
+I'm working on the portofolio project. this the Desktop version. 
+![screenshot](./desk.png)
 
 ![screenshot](./capt2.png)
 
