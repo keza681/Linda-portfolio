@@ -11,6 +11,8 @@
     background-position-y: 10px;
     background-position-x: 0;
     background-repeat: no-repeat;
+    animation-transition
+    padding-bottom: 41px;
     padding-bottom: 40px;
     height: 916px;
     border-bottom-left-radius: 120px;
@@ -321,7 +323,6 @@
   .about-card .images-languages {
     display: none;
   }
-
   .about-card ul {
     display: flex;
     flex-direction: column;
