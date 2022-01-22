@@ -6,7 +6,7 @@
   .portfolio-part-one {
     box-sizing: border-box;
     font-family: Poppins, sans-serif;
-    background-image: url("./images/header.svg");
+    background-image: url("./header-shapes\ mobile@2x.svg");
     background-size: cover;
     background-position-y: 10px;
     background-position-x: 0;
@@ -354,7 +354,7 @@
 
   .footing {
     background-color: #6070ff;
-    background-image: url("/images/header.svg");
+    background-image: url("/contact\ form\ background\ shapes@2x.svg");
     background-size: contain;
     background-position-y: 60px;
     background-position-x: 0;
