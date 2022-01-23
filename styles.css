@@ -45,6 +45,26 @@ body {
   border-radius: 8px;
 }
 
+.logo-container a:hover,
+.logo-container a:focus {
+  animation: change-color 2s linear 1s infinite both;
+}
+
+@keyframes change-color {
+  0% {
+    color: #6070ff;
+    padding: 20px;
+  }
+
+  50% {
+    color: #ceb62e;
+  }
+
+  100% {
+    color: #6070ff;
+  }
+}
+
 .main-body {
   margin: 25px;
   margin-top: 60px;
