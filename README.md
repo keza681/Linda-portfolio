@@ -1,8 +1,8 @@
 
-![](http://127.0.0.1:5500/Index.html)
+![](https://keza681.github.io/)
 
 # linda-portfolio-part2
-I'm working on the portofolio project. this the Desktop version. 
+I'm working on the portofolio project. this the Online version. 
 ### Desktop version view
 ![screenshot](./dess.PNG)
 ### Mobile version view
