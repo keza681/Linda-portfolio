@@ -53,11 +53,10 @@ body {
 @keyframes change-color {
   0% {
     color: #6070ff;
-    padding: 20px;
   }
 
   50% {
-    color: #ceb62e;
+    color: #21272e;
   }
 
   100% {
