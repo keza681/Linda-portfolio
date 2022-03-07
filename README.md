@@ -1,8 +1,8 @@
+# linda-portfolio-part2
+A portfolio is a compilation of materials that exemplifies your beliefs, skills, qualifications, education, training and experiences. It provides insight into your personality and work ethic. 
 
 ![](https://keza681.github.io/)
 
-# linda-portfolio-part2
-I'm working on the portofolio project. this the Online version. 
 ### Desktop version view
 ![screenshot](./dess.PNG)
 ### Mobile version view
